@@ -29,7 +29,7 @@ else:
     print("Incorrect")
 
 answer = input("Which sorting algorithm has the best worst-case time complexity?")
-if answer.strip().lower() == "merge  sort":
+if answer.strip().lower() == "merge sort":
     print("Correct!")
     score += 1
 
