@@ -21,7 +21,7 @@ else:
     print("Incorrect")
 
 answer = input("What is the binary equivalent of the decimal number 10?")
-if answer == "1010":
+if answer.strip().lower() == "1010":
     print("Correct!")
     score += 1
 
